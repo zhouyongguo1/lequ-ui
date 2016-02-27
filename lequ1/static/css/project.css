@@ -1,0 +1,74 @@
+.project-list {
+
+}
+
+.project-list ul {
+    padding-left: 0px;
+    list-style: none outside none;
+}
+
+.project-list ul > li {
+    display: inline-block;
+    width: 24%;
+    padding: 10px;
+    line-height: 1.4;
+    background-color: #F9F9F9;
+    border: 1px solid #FFF;
+    margin-bottom: 3px;
+}
+.project-list ul > li a{
+    color: #333;
+
+}
+
+.project-list ul > li.active{
+    background-color: #f1f9f7;
+    border-color: #e0f1e9;
+    color: #1d9d74;
+}
+
+.project-list ul > li.active a{
+
+    color:#1d9d74;
+}
+
+.form-horizontal .control-label {
+    float: left;
+    width: 140px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+.form-horizontal .controls {
+    margin-left: 160px;
+    width: 240px;
+}
+.tasks{
+    padding: 0px 20px;
+}
+.tasks-body{
+    padding:0px 20px;
+}
+.tasks-header {
+    position: relative;
+}
+.tasks-header > .tools {
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+    top: 15px;
+    line-height: 20px;
+}
+.tasks-header h4 {
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding: 10px 10px;
+    margin: 0px 0 20px;
+}

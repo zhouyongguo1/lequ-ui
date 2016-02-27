@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>乐趣办公</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="themes" href="css/themes/purple.css" rel="stylesheet">
+  <link href="css/from.css" rel="stylesheet">
+</head>
+<body>
+<header class="navbar navbar-static-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/lequ1/index.htmlx.html">
+        Lequ
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="index.html">首页</a>
+        </li>
+        <li>
+          <a href="projects.html" class="active">项目</a>
+        </li>
+        <li>
+          <a href="works.html">工作审批</a>
+        </li>
+        <li>
+          <a href="roles.html">团队</a>
+        </li>
+
+        <li>
+          <a href="events.html">动态事件</a>
+        </li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="text-danger msg"><i class="fa fa-envelope fa-fw"></i>4消息</a>
+        </li>
+        <li class="dropdown">
+
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">
+            <i class="fa fa-user fa-fw"></i>zhouyongguo <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="themes">
+                <a href="#" style="background-color: #2e6da4"></a>
+                <a href="#" style="background-color: #1d9d74"></a>
+                <a href="#" style="background-color: #843534"></a>
+                <a href="#" style="background-color: #dddddd"></a>
+              </div>
+            </li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#"><i class="fa fa-cog fa-fw"></i>个人设置</a></li>
+            <li><a href="#"><i class="fa fa-sign-out fa-fw"></i>退出</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="container">
+  <div class="main">
+    <div class="main-header">
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li><a href="#">项目管理</a></li>
+        <li class="active">宏远建筑项目</li>
+      </ol>
+    </div>
+
+    <div class="row custom-form">
+      <div class="col-sm-4 custom-pane">
+        <div class="tabs">
+          <ul>
+
+            <li class="active" >
+              <a href="#">
+                添加表单字段
+              </a>
+
+            </li>
+            <li>
+              <a href="#">
+                表单字段属性
+              </a>
+
+            </li>
+
+          </ul>
+        </div>
+        <div id="fieldsTab" class="custom-fields">
+          <ul>
+            <li>
+              <a class="btn btn-default" href="#" data-fieldtype="text">
+                <i class="fa fa-apple"></i>
+                单行文本
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-default" href="#" data-fieldtype="textarea">
+                <i class="fa fa-soundcloud"></i>
+                多行文本
+              </a>
+            </li>
+            <li class="active">
+              <a class="btn btn-default" href="#">
+                <i class="fa fa-share-alt "></i>
+                单项选择
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-default" href="#">
+                <i class="fa fa-flag"></i>
+                多项选择
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-default" href="#">
+                <i class="fa fa-mixcloud"></i>
+                下拉框
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-default" href="#">
+                <i class="fa fa-simplybuilt "></i>
+                数字输入框
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-default" href="#">
+                <i class="fa fa-flag"></i>
+                日期
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-default" href="#">
+                <i class="fa fa-flag"></i>
+                时间
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-default" href="#">
+                <i class="fa fa-flag"></i>
+                分割线
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div id="fieldAttTab">
+
+        </div>
+      </div>
+      <div class="col-sm-8 form-pane">
+        <div class="custom-title">
+          <input type="text" required="required" placeholder="表单名称" class="form-control">
+        </div>
+        <div id="form">
+          <form class="form-horizontal">
+
+          </form>
+        </div>
+
+        <div class="col-sm-6">
+          <a class="btn btn-success" href="def.html">保存表单</a>
+          <a class="btn" href="def.html">取消</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<footer role="contentinfo">
+  乐趣软件，快乐的工作生活
+</footer>
+<div id="htmlField" class="hide">
+  <div class="form-group field-item" id="strField" data-field="text">
+    <label class="control-label col-md-2 col-sm-2">First Name <span class="required">*</span>
+    </label>
+
+    <div class="col-sm-6">
+      <input type="text" required="required" class="form-control col-md-7 col-xs-12">
+    </div>
+    <a class="btn btn-del" href="#" data-toggle="tooltip" data-placement="bottom" title="删除"><i class="fa fa-trash-o"></i></a>
+
+
+  </div>
+  <div class="form-group" id="textField" data-field="textarea">
+    <label class="control-label col-md-2 col-sm-2">First Name <span class="required">*</span>
+    </label>
+
+    <div class="col-sm-6">
+      <input type="text" required="required" class="form-control col-md-7 col-xs-12">
+    </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/form.js"></script>
+<script>
+  $(function () {
+    $.form.init();
+
+  });
+
+</script>
+
+</body>
+</html>

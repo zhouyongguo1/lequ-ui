@@ -1,0 +1,25 @@
+.navbar-brand {
+    padding-right: 35px;
+    padding-left: 50px;
+}
+
+.navbar-brand, .navbar-nav > li > a, .navbar-brand:hover {
+    color: #563d7c;
+    font-weight: 500;
+}
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > li > a:hover {
+    color: #463265;
+    background-color: #f9f9f9;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 5px 20px;
+    clear: both;
+    font-weight: 300;
+    line-height: 1.42857143;
+    color: #6F6E6E;
+    font-size: 13px;
+    white-space: nowrap;
+}

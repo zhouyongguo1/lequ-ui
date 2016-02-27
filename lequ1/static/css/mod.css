@@ -1,0 +1,118 @@
+.mod-success {
+    border-top: 4px solid #449d44;
+}
+
+.mod-warning {
+    border-top: 4px solid #f0ad4e;
+}
+
+.mod-primary {
+    border-top: 4px solid #337ab7;
+}
+
+.mod-danger {
+    border-top: 4px solid #d9534f;
+}
+
+.mod {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.mod .mod-header {
+    position: relative;
+    padding: 0px 10px 10px 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.mod .mod-header h4 {
+    font-size: 14px;
+    margin: 4px;
+}
+
+.mod .mod-header h4 > em {
+    font-size: 12px;
+    color: #666;
+    padding-left: 10px;
+}
+
+.mod .mod-header .actions {
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+    top: 1px;
+
+    line-height: 20px;
+}
+
+.mod .mod-body {
+    padding: 0px 0px 10px 0px;
+}
+
+.mod .mod-body .mod-body-list {
+    padding: 0px 15px;
+}
+
+.mod .mod-body .mod-body-list li {
+    list-style: none outside none;
+    padding-top: 10px;
+}
+
+.mod .mod-body .mod-body-list li a {
+    color: #757575;
+    font-weight: 300;
+
+}
+
+.mod .mod-body .mod-body-list li.active a {
+    color: #FF6700;
+}
+
+.ms-user {
+    padding: 15px 15px 10px 15px;
+    background-color: #edecec;
+
+}
+
+.ms-user > img {
+    border-radius: 50%;
+    width: 40px;
+    float: left;
+}
+
+.ms-user > div {
+    overflow: hidden;
+    padding: 2px 5px 7px 15px;
+}
+
+.ms-user-count {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+
+}
+
+.ms-user-count ul {
+    padding-left: 0;
+}
+
+.ms-user-count ul li {
+    border-right: 1px solid #F2F2F2;
+    font-size: 14px;
+    padding-right: 10px;
+    width: 79px;
+    display: inline;
+    float: left;
+    text-align: right;
+    color: #666;
+}
+
+.ms-user-count ul li:last-child {
+    border-right: 0px;
+}
+
+.ms-user-count ul li span, .ms-user-count ul li a span {
+    color: #BBB;
+    font-size: 12px;
+    display: block;
+}

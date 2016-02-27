@@ -1,0 +1,260 @@
+.nav-tabs > li > a {
+    position: relative;
+    display: block;
+    padding: 7px 15px;
+    border-radius: 0;
+}
+
+.tools ul {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.tools ul > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid #DDD;
+    line-height: 16px;
+}
+
+.tools ul > li:last-child {
+    border-right: 0px;
+}
+
+.breadcrumb {
+    margin-bottom: 15px;
+    border-radius: 0px;
+}
+
+.table > tbody > tr > td {
+    padding: 10px;
+    border-top: 1px solid #eeeeee;
+}
+
+.user-list ul {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.user-list ul li {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border: 1px solid #fff;
+    color: #683;
+    margin: 20px;
+    border-radius: 4%;
+}
+
+.user-list ul li > div {
+    width: 350px;
+
+}
+
+.user-list ul li > div > img {
+    border-radius: 50%;
+    width: 40px;
+    float: left;
+}
+
+.user-list ul li .name {
+    display: block;
+    width: 100px;
+    padding: 5px 0px 0px 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.user-list ul li .mail {
+    display: block;
+    width: 100px;
+    padding: 0px 0px 0px 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.filter ul{
+
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.filter ul > li {
+    display: inline-block;
+    line-height: 16px;
+    padding: 5px;
+}
+.filter ul > li.action{
+    background-color: #2E6DA4;
+    color: #fff;
+}
+.filter ul > li.action a{
+    color: #fff;
+}
+
+
+.filter-list {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    background-color: #ffffff;
+}
+
+.filter-list dt {
+    float: left;
+    clear: both;
+    width: 72px;
+    margin: 0 0 8px;
+    padding: 5px 5px 3px 0;
+    font-weight: 700;
+    text-align: right;
+    color: #434a54;
+}
+
+.filter-list dd {
+    float: left;
+    margin: 0;
+    *margin: 0 0 8px;
+    padding: 0;
+}
+
+.filter-list dd ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.filter-list dd li {
+    float: left;
+    _display: inline;
+    margin: 0 0 10px;
+    padding: 0 7px;
+    background: url(images/seperator.png) no-repeat 0 50%;
+}
+
+.filter-list dd li a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 3px 10px;
+}
+
+.filter-list dd li a:hover {
+}
+
+.filter-list dd li.first {
+    background: 0;
+}
+
+.filter-list dd li.first a {
+    padding: 3px 8px;
+}
+
+.filter-list dd li.current a {
+    padding: 2px 9px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #528cd6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.filter-list dd li.current a:hover {
+    text-decoration: none;
+}
+
+
+.filter-list input, .filter-list select {
+    min-width: 200px;
+    height: 30px;
+    padding: 3px 5px;
+}
+
+.filter-list .btn {
+    padding: 4px 6px;
+}
+
+
+.filter-order {
+    margin: 0;
+    padding: 5px 0px 5px 20px;
+    font-size: 13px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+
+.filter-order dt {
+    float: left;
+    clear: both;
+    width: 72px;
+    padding: 3px 5px 3px 0;
+    font-weight: 700;
+    text-align: right;
+    color: #434a54;
+}
+
+.filter-order dd {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.filter-order dd ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.filter-order dd li {
+    float: left;
+    _display: inline;
+    margin: 0 0 0px;
+    padding: 0 7px;
+    background: url(images/seperator.png) no-repeat 0 50%;
+}
+
+.filter-order dd li a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 3px 10px;
+}
+
+.filter-order dd li a:hover {
+}
+
+.filter-order dd li.first {
+    background: 0;
+}
+
+.filter-order dd li.first a {
+    padding: 3px 8px;
+}
+
+.filter-order dd li.current a {
+    padding: 2px 9px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #528cd6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.filter-order dd li.current a:hover {
+    text-decoration: none;
+}

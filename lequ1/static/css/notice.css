@@ -1,0 +1,160 @@
+.notice-list {
+    padding: 10px;
+
+}
+
+.notice {
+    padding-bottom: 10px;
+}
+
+.notice h4 {
+    margin-bottom: 5px;
+}
+
+.notice h4 a {
+    padding: 10px 0px 5px 0px;
+    font-size: 14px;
+
+}
+
+.notice .notice-info {
+
+}
+
+.notice .notice-info ul {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.notice .notice-info ul li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #BBB;
+}
+
+.notice .notice-con {
+
+}
+
+.work-list {
+    padding: 10px;
+}
+
+.work-list .work {
+}
+
+.work-list .work h4 {
+    margin-bottom: 5px;
+}
+
+.work-list .work h4 a {
+    padding: 10px 0px 5px 0px;
+    font-size: 14px;
+}
+
+.work-list .work .work-info {
+
+}
+
+.work-list .work .work-info ul {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.work-list .work .work-info ul li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #BBB;
+}
+
+
+.work-line ul{
+    z-index: 3;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0px;
+
+}
+.work-line li{
+    display: inline-block;
+    text-align: center;
+    padding: 13px 1px;
+
+}
+
+.work-line li>.success{
+    color:#449d44;
+    font-size: 13px;
+}
+.work-line li>.primary{
+    color:#337ab7;
+    font-size: 13px;
+}
+.work-line li>.work-user-name{
+    color: #BBB;
+    font-size: 13px;
+}
+
+.events-list{
+padding: 10px;
+}
+.events-list .events-day{
+    font-size: 15px;
+    color: #7B7B7B;
+    padding-bottom: 6px;
+
+}
+.events-list .events-type{
+    padding-left: 15px;
+    font-size: 15px;
+    color: #BBB;
+
+}
+.events-list .events{
+    padding: 5px 5px 5px 30px;
+
+}
+.events-list .events .events-header{
+
+}
+.events-list .events img {
+    border-radius: 50%;
+    width: 40px;
+    float: left;
+
+}
+.events-list .events h4{
+    margin-bottom: 2px;
+    margin-top: 5px;
+
+}
+.events-list .events h4 a{
+    padding: 10px 0px 5px 13px;
+    font-size: 14px;
+}
+.events-list .events .events-info ul {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.events-list .events .events-info ul li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 13px;
+    font-size: 12px;
+    color: #BBB;
+}
+.events-list .events .events-con {
+   color:  #7B7B7B;
+    padding-right: 15px;
+}
