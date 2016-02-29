@@ -81,13 +81,13 @@
         <div class="tabs">
           <ul>
 
-            <li class="active" >
+            <li class="active" id="fieldsTab">
               <a href="#">
                 添加表单字段
               </a>
 
             </li>
-            <li>
+            <li id="fieldAttTab">
               <a href="#">
                 表单字段属性
               </a>
@@ -96,67 +96,85 @@
 
           </ul>
         </div>
-        <div id="fieldsTab" class="custom-fields">
+        <div id="fieldsDiv" class="custom-fields">
           <ul>
             <li>
               <a class="btn btn-default" href="#" data-fieldtype="text">
-                <i class="fa fa-apple"></i>
+                <i class="fa fa-bold"></i>
                 单行文本
               </a>
             </li>
             <li>
               <a class="btn btn-default" href="#" data-fieldtype="textarea">
-                <i class="fa fa-soundcloud"></i>
+                <i class="fa fa-indent"></i>
                 多行文本
               </a>
             </li>
             <li class="active">
               <a class="btn btn-default" href="#">
-                <i class="fa fa-share-alt "></i>
+                <i class="fa fa-dot-circle-o"></i>
                 单项选择
               </a>
             </li>
             <li>
               <a class="btn btn-default" href="#">
-                <i class="fa fa-flag"></i>
+                <i class="fa fa-check-square"></i>
                 多项选择
               </a>
             </li>
             <li>
               <a class="btn btn-default" href="#">
-                <i class="fa fa-mixcloud"></i>
+                <i class="fa fa-credit-card"></i>
                 下拉框
               </a>
-            </li>
+            </li> <li>
+            <a class="btn btn-default" href="#">
+              <i class="fa fa-star-half-o"></i>
+              评分
+            </a>
+          </li>
             <li>
               <a class="btn btn-default" href="#">
-                <i class="fa fa-simplybuilt "></i>
-                数字输入框
-              </a>
-            </li>
-            <li>
-              <a class="btn btn-default" href="#">
-                <i class="fa fa-flag"></i>
+                <i class="fa fa-calendar"></i>
                 日期
               </a>
             </li>
             <li>
               <a class="btn btn-default" href="#">
-                <i class="fa fa-flag"></i>
+                <i class="fa fa-clock-o"></i>
                 时间
               </a>
             </li>
             <li>
               <a class="btn btn-default" href="#">
-                <i class="fa fa-flag"></i>
+                <i class="fa fa-minus"></i>
                 分割线
               </a>
             </li>
           </ul>
 
         </div>
-        <div id="fieldAttTab">
+        <div id="fieldAttDiv" class="custom-fieldatt">
+          <form>
+            <div class="form-group">
+              <label>标题</label>
+              <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="未命名">
+            </div>
+            <div class="form-group">
+            <label for="exampleInputPassword1">默认值</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
 
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> 必填项
+              </label>  </div><div class="checkbox">
+              <label>
+                <input type="checkbox"> 数字
+              </label>
+            </div>
+
+          </form>
         </div>
       </div>
       <div class="col-sm-8 form-pane">

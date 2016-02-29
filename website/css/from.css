@@ -38,6 +38,7 @@
 
 .custom-pane {
     border-right: 1px solid #ddd;
+    min-height: 500px;
 }
 
 .custom-fields {
@@ -63,9 +64,13 @@
     display: block;
     width: 100%;
 }
+.custom-fieldatt{
+    padding: 0px 20px;
 
+}
 .custom-title {
     padding: 10px;
+
 
 }
 
@@ -88,6 +93,11 @@
     padding: 10px;
     position: relative;
 
+}
+
+.form-pane form > .field-item.active {
+    background-color: #f5f5f5;
+    border: 1px dashed #269abc;
 }
 
 .form-pane form > .field-item > .btn-del {
